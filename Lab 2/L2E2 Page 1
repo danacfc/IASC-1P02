@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Exercise 2 Page 1</title>
+	</head>
+
+	<body>
+
+		<div>
+
+			<a name="Top">
+
+			<a href="#Bottom">Go to Bottom</a>
+
+			<br />
+
+			<a href="L2E2 Page 2">Go to page 2</a>
+
+			<br />
+
+			<a href="https://www.brocku.ca">Go to Brock University's Website</a>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula est ut sem ullamcorper elementum. Praesent consequat arcu at fringilla tincidunt. Quisque elementum odio quis lobortis faucibus. Integer congue bibendum finibus. Aenean a aliquet urna. Phasellus pharetra finibus pulvinar. Sed lobortis purus et dolor molestie, rhoncus consectetur nisi tempus. Fusce dolor erat, pellentesque nec nunc eget, varius mattis elit. Pellentesque non convallis velit, sed varius mauris.</p>
+
+      <p>Sed quis euismod elit, eget ultricies sem. Morbi dictum turpis eget eros pharetra, eget consequat arcu sodales. Maecenas quis ultrices enim. Fusce ac venenatis odio. In auctor pharetra nisl vitae viverra. In pulvinar varius leo. Nam lectus odio, tempor in justo vitae, tempus elementum dui. Pellentesque porttitor dapibus fringilla. Phasellus vitae iaculis tortor. In nec enim a metus pellentesque tincidunt quis sed quam. Donec scelerisque ligula nunc, ac viverra mi suscipit a. Donec ut turpis semper, interdum mi ut, consectetur nisi. Phasellus mattis ac nulla eu lobortis.</p>
+
+      <p>Phasellus euismod viverra diam pharetra condimentum. Nullam dapibus leo ut augue volutpat sodales. Sed lectus lorem, facilisis at mattis ac, venenatis a nulla. Proin ante enim, porta ac lectus nec, malesuada suscipit lorem. Suspendisse nisl magna, interdum ut nisl eget, dictum euismod lacus. Morbi tempus ipsum id mattis ornare. Vestibulum quis tincidunt tortor. Nam ullamcorper tincidunt cursus. Nam sit amet hendrerit turpis, nec aliquam tortor. Cras ac feugiat felis. Duis eu ex condimentum nisl ullamcorper condimentum et eget neque. In vitae justo diam. Fusce ut rhoncus sapien. Quisque orci odio, mattis quis est id, varius viverra erat. Morbi vitae sapien ut mauris tempor luctus vitae id quam.</p>
+
+			<a href="#Top">Go to Top</a>
+
+			<a name="Bottom">
+
+    </div>
+
+	</body>
+
+</html>
