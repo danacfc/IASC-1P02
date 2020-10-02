@@ -1,0 +1,33 @@
+.box{
+  margin:5px;
+  border:purple 1px dashed;
+}
+.center{
+  padding-top:75px;
+  text-align:center;
+  font-size:11px;
+}
+.green{
+  margin:5px;
+  color:green;
+  text-align:center;
+  font-size:9px;
+}
+.orange{
+  color:orange;
+  font-size:20px;
+}
+.red{
+  color:red;
+  vertical-align:super;
+}
+.yellow{
+  color:yellow;
+}
+.purple{
+  color:purple;
+}
+.right{
+  text-align:right;
+  font-size:5px;
+}

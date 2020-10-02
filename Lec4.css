@@ -1,0 +1,15 @@
+p{
+  color:red;
+}
+.classPara{
+  color:blue;
+  font-size:20px;
+}
+#idPara{
+  color:orange;
+}
+.box{
+  margin:20px 20px 20px 20px;
+  border: black 5px solid;
+  Padding: 5px 5px 5px 5px;
+}
