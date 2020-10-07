@@ -1,0 +1,30 @@
+body{
+	color:black;
+	background-color:green;
+}
+#wrapper{
+	width:750px;
+	margin:0 auto;
+}
+#leftbody{
+	float:left;
+	width:200px;
+	height:200px;
+	background-color:blue;
+	padding-top:10px;
+}
+#rightbody{
+	float:right;
+	width:200px;
+	height:200px;
+	background:red;
+	padding-top:10px;
+}
+#bottom{
+  width:200px;
+	height:200px;
+	clear:both;
+  background-color:yellow;
+  position:relative;
+  left:275px
+}

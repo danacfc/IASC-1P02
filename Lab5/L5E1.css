@@ -1,0 +1,33 @@
+body{
+	color:white;
+	background-color:white;
+}
+#wrapper{
+	width:750px;
+	background-color:red;
+}
+#header{
+	height:60px;
+	text-align:center;
+  padding:5px;
+}
+#leftbody{
+	float:left;
+	width:750px;
+	height: 500px;
+	background-color:green;
+  padding-top:10px;
+}
+#rightbody{
+	float:right;
+	width:540px;
+	height:500px;
+	background:#FFFF99;
+	padding:5px;
+}
+#bottom{
+	height:50px;
+	clear:both;
+  background-color:blue;
+  padding-top:10px;
+}
