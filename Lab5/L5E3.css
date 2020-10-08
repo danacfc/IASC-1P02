@@ -1,13 +1,17 @@
 body{
 	color:black;
-	background-color:green;
+	background-color:white;
 }
 #wrapper{
-	width:750px;
+	background-color:green;
+	width:950px;
+	height:750px;
 	margin:0 auto;
 }
 #leftbody{
 	float:left;
+	position:relative;
+	left:100px;
 	width:200px;
 	height:200px;
 	background-color:blue;
@@ -15,6 +19,8 @@ body{
 }
 #rightbody{
 	float:right;
+	position:relative;
+	right:100px;
 	width:200px;
 	height:200px;
 	background:red;
@@ -26,5 +32,5 @@ body{
 	clear:both;
   background-color:yellow;
   position:relative;
-  left:275px
+  left:375px;
 }
