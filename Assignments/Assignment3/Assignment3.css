@@ -1,12 +1,11 @@
 body{
 	color:white;
 	background-color:white;
-  font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 #wrapper{
 	width:1010px;
 	margin:0 auto;
-	background-color:#1F0322;
+	background-color:red;
 }
 #header{
 	height:75px;
@@ -29,7 +28,7 @@ body{
 	float:left;
 	width:180px;
 	height:500px;
-	background-color:#6F73D2;
+	background-color:green;
 	padding:5px;
   border:white 5px solid;
 }
@@ -40,7 +39,7 @@ body{
   float:right;
   width:790px;
   height:40px;
-  background:#6F73D2;
+  background:blue;
   padding:5px;
   border:white 5px solid;
 }
@@ -49,7 +48,7 @@ body{
 	float:right;
 	width:385px;
 	height:210px;
-	background:#73C2BE;
+	background:orange;
 	padding:5px;
   border:white 5px solid;
 }
@@ -58,7 +57,7 @@ body{
 	float:right;
 	width:385px;
 	height:210px;
-	background:#73C2BE;
+	background:orange;
 	padding:5px;
   border:white 5px solid;
 }
@@ -67,7 +66,7 @@ body{
 	float:right;
 	width:385px;
 	height:210px;
-	background:#73C2BE;
+	background:orange;
 	padding:5px;
   border:white 5px solid;
 }
@@ -76,7 +75,7 @@ body{
 	float:right;
 	width:385px;
 	height:210px;
-	background:#73C2BE;
+	background:orange;
 	padding:5px;
   border:white 5px solid;
 }
