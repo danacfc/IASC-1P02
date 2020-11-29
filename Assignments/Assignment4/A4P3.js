@@ -6,3 +6,12 @@ var date = month + "/" + day + "/" + year;
 function insertDate(){
   document.getElementById("date").innerHTML = date;
   }
+function openNav(){
+  document.getElementById("navigation").style.width = "200px";
+  document.getElementById("wrapper").style.marginLeft = "200px";
+}
+function closeNav(){
+  document.getElementById("navigation").style.width = "0px";
+  document.getElementById("wrapper").style.marginLeft = "0px";
+}
+//navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp

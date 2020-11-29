@@ -30,13 +30,14 @@ img{
   width:70px;
   float:right;
   text-align:right;
-  padding-right:5px;
+  position:relative;
+  right:10px;
 }
 #date{
   text-align:right;
 }
 .sidenav{
-  height:635px;
+  height:675px;
   width:0;
   position:fixed;
   z-index:1;
@@ -65,15 +66,97 @@ img{
   font-size:36px;
   margin-left:50px;
 }
+/* navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp */
 #content{
   float:right;
-  width:1490px;
+  width:1500px;
   height:500px;
   background-color:#abdeed;
   padding:5px;
 }
+*{
+  box-sizing:border-box;
+}
+.slideshow{
+  max-width:400px;
+  position:relative;
+  margin:auto;
+}
+.slides{
+  display:none;
+  text-align:center;
+}
+.prev, .next{
+  cursor:pointer;
+  position:absolute;
+  top:50%;
+  width:auto;
+  margin-top:-22px;
+  padding:16px;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  transition:0.6s ease;
+  border-radius:0 3px 3px 0;
+  user-select:none;
+}
+.next{
+  right:0;
+  border-radius:3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+  background-color:#00316e;
+}
+.caption{
+  color:white;
+  font-size:15px;
+  padding:8px 12px;
+  position:absolute;
+  bottom:8px;
+  width:100%;
+  text-align:center;
+}
+.numbertext{
+  color:#00316e;
+  font-size:12px;
+  padding:8px 12px;
+  position:absolute;
+  top:0;
+}
+.dot{
+  cursor:pointer;
+  height:15px;
+  width:15px;
+  margin:0 2px;
+  background-color:gray;
+  border-radius:50%;
+  display:inline-block;
+  transition:background-color 0.6s ease;
+}
+.active, .dot:hover{
+  background-color:#00316e;
+}
+.fade{
+  -webkit-animation-name:fade;
+  -webkit-animation-duration:1.5s;
+  animation-name:fade;
+  animation-duration:1.5s;
+}
+@-webkit-keyframes fade{
+  from{opacity:0.4}
+  to{opacity:1}
+}
+@keyframes fade{
+  from{opacity:0.4}
+  to{opacity:1}
+}
+/* slideshow code from https://www.w3schools.com/howto/howto_js_slideshow.asp */
 #footer{
   text-align:center;
-  height:75px;
+  padding:5px;
+  height:65px;
   clear:both;
+}
+#footer .social{
+  text-align:right;
 }

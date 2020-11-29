@@ -29,12 +29,45 @@
 			<h4><a href="A4P2.html">Page 2</a></h4>
 			<h4><a href="A4P3.html">Page 3</a></h4>
 			<h4><a href="A4P4.html">Page 4</a></h4>
+			<!-- navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp -->
 		</div>
 		<div id="content">
-			put stuff here
+			<div class="slideshow">
+				<div class="slides fade" style="display:block;">
+					<div class="numbertext">1 / 3</div>
+					<img src="me.jfif" height="300px" />
+					<div class="caption">Me</div>
+				</div>
+
+				<div class="slides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="penny.jpg" height="300px" />
+					<div class="caption">My dog, Penny</div>
+				</div>
+
+				<div class="slides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="animalcrossing.jfif" height="300px" />
+					<div class="caption">My character in my favourite video game right now</div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br />
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			<!--slideshow code from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+			<p> Hi, my name is Dana and this is a website to help you get to know me better! I'm a fourth year Bachelor of Accounting Co-op student at Brock University.</p>
 		</div>
 		<div id="footer">
-			put stuff here
+			Put stuff here
+			<p class="social">Connect with me: <a href="https://twitter.com/ItsaMeDana" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/danacfc/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://ca.linkedin.com/in/dana-carreon-27a19014b?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin"></i></a></p>
 		</div>
 	</div>
 

@@ -3,12 +3,13 @@ body{
   color:#00316e;
 }
 #wrapper{
+  transition:0.5s;
   width:1500px;
   margin:0 auto;
   background-color:#b3abed;
 }
 #logo{
-  height:65px;
+  height:100px;
   width:180px;
   float:left;
   padding:5px;
@@ -17,7 +18,7 @@ img{
   border:#00316e solid 1.5px;
 }
 #header{
-  height:75px;
+  height:110px;
   width:1215px;
   float:right;
   text-align:center;
@@ -25,7 +26,7 @@ img{
   padding-left:10px;
 }
 #dateDisplay{
-  height:75px;
+  height:110px;
   width:70px;
   float:right;
   text-align:right;
@@ -34,22 +35,50 @@ img{
 #date{
   text-align:right;
 }
-#navigation{
-  float:left;
-  width:200px;
-  height:500px;
+.sidenav{
+  height:635px;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:8px;
+  left:0;
   background-color:#abedba;
-  padding:5px;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
 }
+.sidenav a{
+  padding:8px 8px 8px 32px;
+  text-decoration:none;
+  font-size:25px;
+  color:#00316e;
+  display:block;
+  transition:0.3s;
+}
+.sidenav a:hover{
+  color:#d30000;
+}
+.sidenav .closebtn{
+  position:absolute;
+  top:0;
+  right:25px;
+  font-size:36px;
+  margin-left:50px;
+}
+/* navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp */
 #content{
   float:right;
-  width:1280px;
+  width:1490px;
   height:500px;
   background-color:#abdeed;
   padding:5px;
 }
 #footer{
   text-align:center;
-  height:75px;
+  padding:5px;
+  height:65px;
   clear:both;
+}
+#footer .social{
+  text-align:right;
 }
