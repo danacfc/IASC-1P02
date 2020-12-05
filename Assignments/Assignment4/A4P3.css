@@ -17,6 +17,9 @@ body{
 img{
   border:#00316e solid 1.5px;
 }
+.emphasis:hover{
+  border-width:3px;
+}
 #header{
   height:110px;
   width:1215px;
@@ -36,7 +39,7 @@ img{
   text-align:right;
 }
 .sidenav{
-  height:635px;
+  height:1137px;
   width:0;
   position:fixed;
   z-index:1;
@@ -69,9 +72,31 @@ img{
 #content{
   float:right;
   width:1490px;
-  height:500px;
+  height:1000px;
   background-color:#abdeed;
   padding:5px;
+}
+#mySVG{
+  position:relative;
+  width:600px;
+  height:700px;
+  left:200px;
+}
+#commentArea{
+  background-color:lightgray;
+  border:3px #00316e solid;
+  width:250px;
+}
+.gradient{
+  text-align:center;
+  clear:left;
+  width:900px;
+  height:500px;
+  border-radius:15px;
+  transition:background-color 1s;
+}
+.gradient:hover{
+  background:#edbfab;
 }
 #footer{
   text-align:center;
@@ -81,4 +106,7 @@ img{
 }
 #footer .social{
   text-align:right;
+}
+.social i:hover{
+  color:#abdeed;
 }

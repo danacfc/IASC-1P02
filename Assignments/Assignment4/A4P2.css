@@ -17,6 +17,9 @@ body{
 img{
   border:#00316e solid 1.5px;
 }
+.emphasis:hover{
+  border-width:3px;
+}
 #header{
   height:110px;
   width:1215px;
@@ -36,7 +39,7 @@ img{
   text-align:right;
 }
 .sidenav{
-  height:635px;
+  height:1137px;
   width:0;
   position:fixed;
   z-index:1;
@@ -69,9 +72,54 @@ img{
 #content{
   float:right;
   width:1490px;
-  height:500px;
+  height:1000px;
   background-color:#abdeed;
   padding:5px;
+}
+#art{
+  display:none;
+}
+.caption1{
+  font-size:15px;
+  width:244px;
+  text-align:center;
+  clear:both;
+  position:relative;
+  bottom:45px;
+}
+.caption2{
+  font-size:15px;
+  width:257px;
+  text-align:center;
+  clear:both;
+  position:relative;
+  bottom:45px;
+}
+.caption3{
+  font-size:15px;
+  position:relative;
+  bottom:45px;
+  width:258px;
+  text-align:center;
+}
+.caption4{
+  font-size:15px;
+  width:228px;
+  text-align:center;
+  clear:both;
+  position:relative;
+  bottom:45px;
+}
+.caption5{
+  font-size:15px;
+  width:403px;
+  text-align:center;
+  clear:both;
+  position:relative;
+  bottom:45px;
+}
+.wizardHat:hover, .peony:hover, .otter:hover, .ocean:hover, .winter:hover{
+  color:white;
 }
 #footer{
   text-align:center;
@@ -81,4 +129,7 @@ img{
 }
 #footer .social{
   text-align:right;
+}
+.social i:hover{
+  color:#abdeed;
 }

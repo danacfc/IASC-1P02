@@ -15,3 +15,46 @@ function closeNav(){
   document.getElementById("wrapper").style.marginLeft = "0px";
 }
 //navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp
+function displayAnswer(){
+  if(document.getElementById("option1").checked){
+    document.getElementById("block1").style.border = "3px solid red";
+    document.getElementById("result1").style.color = "red";
+    document.getElementById("result1").innerHTML= "Incorrect!";
+    showCorrectAnswer();
+  }
+  if(document.getElementById("option2").checked){
+    document.getElementById("block2").style.border = "3px solid red";
+    document.getElementById("result2").style.color = "red";
+    document.getElementById("result2").innerHTML= "Incorrect!";
+    showCorrectAnswer();
+  }
+  if(document.getElementById("option3").checked){
+    document.getElementById("block3").style.border = "3px solid limegreen";
+    document.getElementById("result3").style.color = "limegreen";
+    document.getElementById("result3").innerHTML= "Correct!";
+  }
+  if(document.getElementById("option4").checked){
+    document.getElementById("block4").style.border = "3px solid red";
+    document.getElementById("result4").style.color = "red";
+    document.getElementById("result4").innerHTML= "Incorrect!";
+    showCorrectAnswer();
+  }
+  document.getElementById("submitButton").disabled = true;
+}
+function showCorrectAnswer(){
+  let showAnswer = document.createElement("button");
+  showAnswer.innerHTML = "Show Correct Answer";
+  showAnswer.style.position = "relative";
+  showAnswer.style.left = "120px";
+  document.getElementById("showAnswer").appendChild(showAnswer);
+  showAnswer.addEventListener("click", () => {
+    document.getElementById("block3").style.border = "3px solid limegreen";
+    document.getElementById("result3").style.color = "limegreen";
+    document.getElementById("result3").innerHTML = "Correct!";
+    document.getElementById("showAnswer").removeChild(showAnswer);
+  })
+}
+// quiz code (with some personal adjustments) from https://www.freecodecamp.org/news/multiple-choice-quiz-template/
+function unhideArt(){
+  document.getElementById("art").style.display = "block";
+}
