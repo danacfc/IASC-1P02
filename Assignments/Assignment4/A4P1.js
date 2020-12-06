@@ -14,7 +14,7 @@ function closeNav(){
   document.getElementById("navigation").style.width = "0px";
   document.getElementById("wrapper").style.marginLeft = "0px";
 }
-//navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp
+//“How TO - Side Navigation.” How To Create a Side Navigation Menu, www.w3schools.com/howto/howto_js_sidenav.asp.
 var slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n){
@@ -34,4 +34,4 @@ function showSlides(n){
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-//slideshow code from https://www.w3schools.com/howto/howto_js_slideshow.asp
+//“How TO - Slideshow.” How To Create a Slideshow, www.w3schools.com/howto/howto_js_slideshow.asp. 

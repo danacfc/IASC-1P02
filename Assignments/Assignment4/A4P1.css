@@ -69,7 +69,7 @@ img{
   font-size:36px;
   margin-left:50px;
 }
-/* navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp */
+/* “How TO - Side Navigation.” How To Create a Side Navigation Menu, www.w3schools.com/howto/howto_js_sidenav.asp.  */
 #content{
   float:right;
   width:1500px;
@@ -153,7 +153,7 @@ img{
   from{opacity:0.4}
   to{opacity:1}
 }
-/* slideshow code from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+/* “How TO - Slideshow.” How To Create a Slideshow, www.w3schools.com/howto/howto_js_slideshow.asp.  */
 #footer{
   text-align:center;
   padding:5px;

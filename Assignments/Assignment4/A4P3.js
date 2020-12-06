@@ -14,7 +14,7 @@ function closeNav(){
   document.getElementById("navigation").style.width = "0px";
   document.getElementById("wrapper").style.marginLeft = "0px";
 }
-//navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp
+//“How TO - Side Navigation.” How To Create a Side Navigation Menu, www.w3schools.com/howto/howto_js_sidenav.asp.
 function postComment(){
   var name = document.getElementById("name").value;
   var comment = document.getElementById("comment").value;
@@ -35,4 +35,4 @@ function drawHeart(){
   heart.style.strokeDashoffset = length - draw;
 }
 }
-// draw a shape code from https://www.w3schools.com/howto/howto_js_scrolldrawing.asp
+// “How TO - Scroll Drawing.” How To Draw on Scroll, www.w3schools.com/howto/howto_js_scrolldrawing.asp. 

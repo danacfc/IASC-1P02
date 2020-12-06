@@ -14,7 +14,7 @@ function closeNav(){
   document.getElementById("navigation").style.width = "0px";
   document.getElementById("wrapper").style.marginLeft = "0px";
 }
-//navigation overlay code from https://www.w3schools.com/howto/howto_js_sidenav.asp
+//“How TO - Side Navigation.” How To Create a Side Navigation Menu, www.w3schools.com/howto/howto_js_sidenav.asp.
 function displayAnswer(){
   if(document.getElementById("option1").checked){
     document.getElementById("block1").style.border = "3px solid red";
@@ -54,7 +54,7 @@ function showCorrectAnswer(){
     document.getElementById("showAnswer").removeChild(showAnswer);
   })
 }
-// quiz code (with some personal adjustments) from https://www.freecodecamp.org/news/multiple-choice-quiz-template/
+// Arobelidze, Alexander. “How To Embed Multiple Choice Quiz Questions into Your Article.” FreeCodeCamp.org, FreeCodeCamp.org, 6 Apr. 2020, www.freecodecamp.org/news/multiple-choice-quiz-template/. 
 function unhideArt(){
   document.getElementById("art").style.display = "block";
 }
